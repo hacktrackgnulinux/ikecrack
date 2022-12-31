@@ -2,7 +2,7 @@
 
 use Digest::HMAC_MD5 qw(hmac_md5 hmac_md5_hex);
 
-# ikecrack-snarf.pl
+# ikecrack.pl
 
 # By Anton T. Rager - arager@avaya.com or a_rager@yahoo.com
 # Version 1.00 - 9/29/2002
@@ -48,7 +48,7 @@ if ($static_test) {
 
         $findhost=@ARGV[0];
         if (!$findhost) {
-	        print("Usage:  ikecrack-snarf.pl <initiator_ip.port>\n\n  Example: ikecrack-snarf.pl 10.10.10.10.500\n");
+	        print("Usage:  ikecrack <initiator_ip.port>\n\n  Example: ikecrack 10.10.10.10.500\n");
 	        exit;
         }
 
@@ -575,3 +575,4 @@ if (!$level0) {
 }
 
 # End Bruteforce Loops
+
