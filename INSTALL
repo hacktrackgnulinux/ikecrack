@@ -1,0 +1,3 @@
+chmod 775 ikecrack.pl
+ln -sv /pentest/01/ikecrack/ikecrack.pl /usr/bin/ikecrack.pl
+ln -sv /pentest/01/ikecrack/ikecrack.pl /usr/bin/ikecrack
